@@ -3,22 +3,21 @@ $(document).ready(function() {
 	//////////////////////////////////////////////////////////////////////////////
 	////     INSERT YOUR NODE RPC URL, NETWORK ID AND GAS PRICE HERE        //////
 	//////////////////////////////////////////////////////////////////////////////
-	var rpcURL = "http://ethltjjnz-dns-reg1.northeurope.cloudapp.azure.com:8540";
-	var networkID = 18263546;
+	var rpcURL = "http://your-fancy-node-url:8545";
+	var networkID = 12345;
 	var minGasPrice = 0;
 	//////////////////////////////////////////////////////////////////////////////
 	////     INSERT THE TOKEN DETAILS HERE                                  //////
 	//////////////////////////////////////////////////////////////////////////////
-	var token_address = '0xeC820c7Fadb1139f855477E626CaE5Efa304227d';
+	var token_address = '0x0000000000000000000000000000000000000000';
 	var token_amount = 10;
-	var token_receiver = "0xed42e169cf99df087cdc19d845536359fc3f4a10";
+	var token_receiver = "0x0000000000000000000000000000000000000000";
 	//////////////////////////////////////////////////////////////////////////////
 
 	var account;
 	var web3Provider;
 
 	var contract_token;
-	var contract_faucet;
 
 	var balanceToken = 0;
 
